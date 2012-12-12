@@ -1,0 +1,98 @@
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/dummy/libPstream.so' is up to date.
+
+Note: ignore spurious warnings about missing mpicxx.h headers
+
+wmake libso mpi
+SOURCE=UOPwrite.C ;  mpicxx-dbg -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor  -DNoRepository -ftemplate-depth-100 -DMPICH_SKIP_MPICXX -I/usr/local/mpi-gcc/include -IlnInclude -I. -I/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/src/OpenFOAM/lnInclude -I/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOptMPICH/UOPwrite.o
+SOURCE=UIPread.C ;  mpicxx-dbg -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor  -DNoRepository -ftemplate-depth-100 -DMPICH_SKIP_MPICXX -I/usr/local/mpi-gcc/include -IlnInclude -I. -I/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/src/OpenFOAM/lnInclude -I/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOptMPICH/UIPread.o
+SOURCE=UPstream.C ;  mpicxx-dbg -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor  -DNoRepository -ftemplate-depth-100 -DMPICH_SKIP_MPICXX -I/usr/local/mpi-gcc/include -IlnInclude -I. -I/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/src/OpenFOAM/lnInclude -I/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOptMPICH/UPstream.o
+SOURCE=PstreamGlobals.C ;  mpicxx-dbg -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor  -DNoRepository -ftemplate-depth-100 -DMPICH_SKIP_MPICXX -I/usr/local/mpi-gcc/include -IlnInclude -I. -I/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/src/OpenFOAM/lnInclude -I/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOptMPICH/PstreamGlobals.o
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/mpich2-1.4/libPstream.so' is up to date.
+Found <sys/inotify.h>  --  enabling inotify for file monitoring.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libOSspecific.o' is up to date.
+SOURCE=global/global.Cver ; sed -e 's!VERSION_STRING!2.1.0-gdb-lh!' -e 's!BUILD_STRING!2.1.0-bd7367f93311!' $SOURCE > Make/linux64GccDPOpt/global.C; mpicxx-dbg -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor  -DNoRepository -ftemplate-depth-100 -IMake/linux64GccDPOpt -IlnInclude -I. -I/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/src/OpenFOAM/lnInclude -I/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/src/OSspecific/POSIX/lnInclude   -fPIC -c Make/linux64GccDPOpt/global.C -o Make/linux64GccDPOpt/global.o
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libOpenFOAM.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libfileFormats.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libtriSurface.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libmeshTools.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libedgeMesh.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libsurfMesh.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/dummy/libscotchDecomp.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/dummy/libptscotchDecomp.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/dummy/libmetisDecomp.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/dummy/libMGridGen.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libfiniteVolume.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/liblagrangian.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libdistributionModels.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libgenericPatchFields.so' is up to date.
+using SCOTCH_ARCH_PATH=/vol6/home/test605/OpenFOAM/ThirdParty-2.1.0-gdb-lh/platforms/linux64Gcc/scotch_5.1.11
+wmake libso ptscotchDecomp
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libdecompositionMethods.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libdecompose.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libreconstruct.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libdistributed.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libconversion.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libsampling.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libdynamicMesh.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libdynamicFvMesh.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libtopoChangerFvMesh.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libODE.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/librandomProcesses.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libspecie.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libsolid.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libthermophysicalFunctions.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libliquidProperties.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libliquidMixtureProperties.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libsolidProperties.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libsolidMixtureProperties.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libbasicThermophysicalModels.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libreactionThermophysicalModels.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/liblaminarFlameSpeedModels.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libchemistryModel.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libbarotropicCompressibilityModel.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libthermalPorousZone.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libSLGThermo.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libbasicSolidThermo.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libsolidChemistryModel.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libradiationModels.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libincompressibleTransportModels.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libinterfaceProperties.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libtwoPhaseInterfaceProperties.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libLESfilters.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libLESdeltas.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libincompressibleTurbulenceModel.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libincompressibleRASModels.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libincompressibleLESModels.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libcompressibleTurbulenceModel.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libcompressibleRASModels.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libcompressibleLESModels.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libturbulenceDerivedFvPatchFields.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libcombustionModels.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libregionModels.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libpyrolysisModels.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libsurfaceFilmModels.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libthermoBaffleModels.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libregionCoupling.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libdistributionModels.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/liblagrangian.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libsolidParticle.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/liblagrangianIntermediate.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/liblagrangianSpray.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libdsmc.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libcoalCombustion.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libpotential.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libmolecularMeasurements.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libmolecule.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/postCalc.o' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libfoamCalcFunctions.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libfieldFunctionObjects.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libforces.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libIOFunctionObjects.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libutilityFunctionObjects.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libjobControl.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libsystemCall.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libautoMesh.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libblockMesh.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libpairPatchAgglomeration.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libfvMotionSolvers.so' is up to date.
+'/vol6/home/test605/OpenFOAM/OpenFOAM-2.1.0-gdb-lh/platforms/linux64GccDPOpt/lib/libengine.so' is up to date.
